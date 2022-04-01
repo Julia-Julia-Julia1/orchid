@@ -1,0 +1,173 @@
+
+
+
+ html, body {
+ 	height: 100%;
+ 	/* Высота родителя */
+ 	margin: 0;
+ 	/* Убираем отступы у страницы */
+ }
+ #page {
+	width: 100%;
+	margin: 0 auto;
+}
+
+.text2 {
+	text-align: center;
+	font-weight: bolder;
+	
+	color: greenyellow;
+	font-size: 32px;
+
+}
+
+.text3 {
+	
+	text-align: center;
+	font-weight: bolder;
+	line-height: 30px;
+	font-size: 28px;
+	
+}
+
+.text4 {
+	text-align: right;
+	color: orange;
+	font-weight: bolder;
+	font-family: cursive;
+	font-size: 28px;
+}
+
+svg {
+	width: 75px;
+	height: 75px;
+}
+
+
+
+
+ #Horizontalmenu ul li {
+	height: 25px;
+	display: inline-block;
+	padding: 10px;
+	position: relative;
+}
+
+
+#Horizontalmenu li:hover .vipadspisok {
+	display: block;
+
+}
+
+
+#Horizontalmenu .vipadspisok {
+	position: absolute;
+	top: 55px;
+	right: 128px;
+	display: none;
+	width: 100px;
+
+}
+
+.order-link1 {
+	font-weight: bolder;
+	background: greenyellow;
+	border-color: transparent;
+	padding: 8px 18px;
+	font-size: 22px;
+	box-sizing: border-box;
+
+	display: inline-block;
+
+	color: #f28e8e;
+	text-align: left;
+
+
+	background-color: transparent;
+	border: 1px solid transparent;
+	line-height: 1.5;
+	border-radius: .25rem;
+
+
+
+}
+
+.order-link2 {
+	font-weight: bolder;
+	background: greenyellow;
+	border-color: transparent;
+	padding: 8px 18px;
+	font-size: 22px;
+	box-sizing: border-box;
+
+	display: inline-block;
+
+	color: #f28e8e;
+	text-align: left;
+
+
+	background-color: transparent;
+	border: 1px solid transparent;
+	line-height: 1.5;
+	border-radius: .25rem;
+
+
+
+}
+
+.order-link3 {
+	font-weight: bolder;
+	background: greenyellow;
+	border-color: transparent;
+	padding: 8px 18px;
+	font-size: 22px;
+	box-sizing: border-box;
+
+	display: inline-block;
+
+	color: #f28e8e;
+	text-align: left;
+
+
+	background-color: transparent;
+	border: 1px solid transparent;
+	line-height: 1.5;
+	border-radius: .25rem;
+
+
+
+}
+
+.order-link1:hover {
+	background: greenyellow;
+
+}
+
+.order-link2:hover {
+	background: greenyellow;
+
+}
+
+.order-link3:hover {
+	background: greenyellow;
+
+}
+
+.order-link:focus {
+	box-shadow: none;
+}
+
+.order-link1:focus {
+	box-shadow: none;
+}
+
+.order-link2:focus {
+	box-shadow: none;
+}
+
+.order-link3:focus {
+	box-shadow: none;
+	text-align: center;
+}
+
+
